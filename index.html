@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,156 @@
     <link rel="stylesheet" href="./sass/style.css">
     <title>Metall</title>
 </head>
+
 <body>
-    <h1>Hello world</h1>
+    <div class="navbar">
+        <p>Logo</p>
+        <div class="links">
+            <a href="">Каталог</a>
+            <a href="">О компании</a>
+            <a href="">Прайс-лист</a>
+        </div>
+        <div class="info">
+            <div class="info-item">
+                <img src="./assets/icons/phone.svg" alt="phone">
+                <a href="tel:+7495333333">+7495333333</a>
+            </div>
+            <div class="info-item">
+                <img src="./assets/icons/mail.svg" alt="phone">
+                <a href="tel:+7495333333">MkMoscow@mail.ru</a>
+            </div>
+        </div>
+        <button>Обратный звонок</button>
+        <div class="basket">
+            <img src="./assets/icons/basket.svg" alt="">
+            <span class="counter">1</span>
+        </div>
+    </div>
+    <header>
+        <div class="header-info">
+            <h1 class="main-header">Изделия из металла любой сложности</h1>
+            <span class="simpe-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero nulla magna
+                aliquam
+                et. Volutpat imperdiet cursus non elementum tincidunt in ac urna. Eu, scelerisque etiam elementum,
+                ullamcorper odio cras interdum massa egestas.</span>
+            <a>Каталог</a>
+            <div class="carousel">
+                <button><img src="./assets/icons/arrow-left.svg" alt=""></button>
+                <div class="counter">
+                    <span>1</span>
+                    <div class="divider"></div>
+                    <span>8</span>
+                </div>
+                <button><img src="./assets/icons/arrow-left.svg" alt=""></button>
+            </div>
+        </div>
+        <a href="./about.html" class="preview">
+            <img src="" alt="О нас">
+            <h2 class="sub-header">О нас</h2>
+        </a>
+        </div>
+    </header>
+    <section class="shop">
+        <div class="shop-filter">
+            <div class="shop-filter-control">
+                <h3 class="shop-header">Цена</h3>
+                <div>
+                    <input type="number" name="min" id="min" placeholder="0">
+                    <input type="number" name="max" id="max" placeholder="10000">
+                </div>
+                <div class="shop-filter-control">
+                    <h3 class="shop-header">Материал</h3>
+                    <button class="link-button">Показать ещё</button>
+                </div>
+                <div class="shop-filter-control">
+                    <h3 class="shop-header">Категория</h3>
+                    <button class="link-button">Показать ещё</button>
+                </div>
+            </div>
+        </div>
+        <div class="shop-items">
+            <h3 class="shop-header-black">Найдено 120 позиций</h3>
+            <div class="shop-item">
+                <img src="" alt="Картинка товара">
+                <div class="shop-item-info">
+                    <h4 class="shop-item-header">Арматура 10 мм рифленая</h4>
+                    <span class="shop-item-description">Тип товара: Арматура; Применение: Для фундамента; Материал:
+                        Сталь; Фактура: Рифленая; Форма: Круглая; Диаметр: 10; Длина арматуры: 2,9; Способ
+                        изготовления:
+                        Горячекатаная; Класс: A500С;</span>
+                </div>
+                <div class="shop-item-controls">
+                    <span class="shop-item-price-description">Цена за штуку</span>
+                    <div class="span">1200₽</div>
+                    <div class="shop-item-add">
+                        <div class="shop-item-counter">
+                            <input type="number" name="sum" id="sum">
+                            <div class="controls">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                            <button>В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <button>Показать ещё</button>
+    </section>
+
+    <section class="map">
+        <div class="map-info">
+            <h2 class="map-header">Наш офис</h2>
+            <span class="map-adress">г. Москва, наб. Даниловская, 8 стр. 29А, оф.6, 115114</span>
+            <span class="map-adress">Часы работы с 08:00 до 20:00</span>
+            <div class="info">
+                <div class="info-item">
+                    <img src="./assets/icons/phone.svg" alt="phone">
+                    <a href="tel:+7495333333">+7495333333</a>
+                </div>
+                <div class="info-item">
+                    <img src="./assets/icons/mail.svg" alt="phone">
+                    <a href="tel:+7495333333">MkMoscow@mail.ru</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="policy">
+            <p>Logo</p>
+            <span>© 1998 – 2022 ООО «Название компании». Все права защищены.</span>
+        </div>
+        <div class="links">
+            <a href="">Каталог</a>
+            <a href="">О компании</a>
+            <a href="">Прайс-лист</a>
+        </div>
+        <div class="footer-info">
+            <span>г. Москва, наб. Даниловская, 8 стр. 29А, оф.6, 115114</span>
+            <a href="tel:+7495333333">+7495333333</a>
+            <a href="mail:+7495333333">MkMoscow@mail.ru</a>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-image">
+            <img src="" alt="">
+        </div>
+        <form>
+            <h2>Оставьте свои данные и мы вас проконсультруеми</h2>
+            <input class="modal-input" type="text">
+            <input class="modal-input" type="tel">
+            <p>Возможно вы предпочитаете мессенджеры</p>
+            <input type="checkbox" id="telegram" name="telegram">
+            <label for="telegram">Telegram</label>
+            <input type="checkbox" id="WhatsApp" name="telegram">
+            <label for="WhatsApp">What`sApp</label>
+            <button>Отправить контакт</button>
+    </form>
+    </div>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
